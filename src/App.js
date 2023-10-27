@@ -4,6 +4,7 @@ import Menu from './componentes/menu/Menu';
 import Inicio from './componentes/inicio/Inicio';
 import Encuesta from './componentes/encuesta/Encuesta';
 import CrearEncuesta from './componentes/crearEncuesta/CrearEncuesta';
+import NotFound from './componentes/notFound/NotFound';
 import encuestas from './data/encuestas.json';
 import './App.css';
 
@@ -24,6 +25,8 @@ function App() {
           <Route path="/" element={<Inicio lista={listaEncuestas} />} />
           <Route path="/encuesta/:id" element={<Encuesta lista={listaEncuestas} />} />
           <Route path="/crearEncuesta" element={<CrearEncuesta agregarEncuestas={agregarEncuestas} />} />
+
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
     </div>
