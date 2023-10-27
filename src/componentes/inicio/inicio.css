@@ -1,0 +1,47 @@
+.encuestas-title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #007BFF;
+    margin-bottom: 20px;
+}
+
+.encuestas-list {
+    list-style: none;
+    padding: 0;
+}
+
+.encuestas-list a {
+    text-decoration: none;
+    display: block;
+    border: 1px solid #007BFF;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.encuestas-list a:hover{
+    background-color: #007BFF;
+}
+
+.encuestas-list a:hover h2{
+    color: #fff;
+}
+
+.encuestas-list a:hover p{
+    color: #fff;
+}
+
+.encuestas-list h2 {
+    font-size: 24px;
+    margin: 0;
+    padding-bottom: 15px;
+    color: #333;
+    font-family: 'Times New Roman', sans-serif;
+  }
+
+
+.encuestas-list p {
+    margin-top: 10px;
+    color: #666;
+}

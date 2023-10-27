@@ -1,0 +1,42 @@
+.menu-container {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+
+/* Estilo para el título "Menu" */
+.menu-title {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.menu-list {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+/* Estilo para los elementos de la lista */
+.menu-list-item {
+    font-size: 18px;
+    margin-bottom: 10px; 
+}
+
+/* Estilo para los enlaces dentro de la lista */
+.menu-link {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Estilo para los enlaces al pasar el cursor (hover) */
+.menu-link:hover {
+    color: rgb(164, 159, 159);
+}

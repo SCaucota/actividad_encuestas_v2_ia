@@ -1,0 +1,157 @@
+[
+    {
+        "id": 1,
+        "title": "Locos por el gimnasio",
+        "description": "Encuesta de salud física",
+        "questions": [
+            {
+                "id": 1,
+                "title": "¿Cuántos días a la semana haces ejercicio?",
+                "options": [
+                    {
+                        "id": 1,
+                        "title": "1 o 2 días"
+                    },
+                    {
+                        "id": 2,
+                        "title": "3 o 4 días"
+                    },
+                    {
+                        "id": 3,
+                        "title": "5 o 6 días"
+                    },
+                    {
+                        "id": 4,
+                        "title": "Todos los días"
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "title": "¿Cuál es tu nivel de actividad física?",
+                "options": [
+                    {
+                        "id": 1,
+                        "title": "Básico"
+                    },
+                    {
+                        "id": 2,
+                        "title": "Intermedio"
+                    },
+                    {
+                        "id": 3,
+                        "title": "Avanzado"
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "title": "¿Tienes un entrenador?",
+                "options": [
+                    {
+                        "id": 1,
+                        "title": "Sí"
+                    },
+                    {
+                        "id": 2,
+                        "title": "No"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "title": "Para nadar no hay límite de edad",
+        "description": "Averiguar rango de edad en competencias de natación",
+        "questions": [
+            {
+                "id": 1,
+                "title": "¿Qué edad tienes?",
+                "options": [
+                    {
+                        "id": 1,
+                        "title": "Menos de 10 años"
+                    },
+                    {
+                        "id": 2,
+                        "title": "Entre 10 y 20 años"
+                    },
+                    {
+                        "id": 3,
+                        "title": "Entre 20 y 30 años"
+                    },
+                    {
+                        "id": 4,
+                        "title": "Entre 30 y 40 años"
+                    },
+                    {
+                        "id": 5,
+                        "title": "Más de 40 años"
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "title": "¿Cuánto tiempo llevas nadando?",
+                "options": [
+                    {
+                        "id": 1,
+                        "title": "Menos de 1 año"
+                    },
+                    {
+                        "id": 2,
+                        "title": "Entre 1 y 5 años"
+                    },
+                    {
+                        "id": 3,
+                        "title": "Más de 5 años"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "title": "Géneros literarios más leídos",
+        "description": "Encuesta de géneros literarios más populares",
+        "questions": [
+            {
+                "id": 1,
+                "title": "¿Cuál es tu género literario preferido?",
+                "options": [
+                    {
+                        "id": 1,
+                        "title": "Fantasía"
+                    },
+                    {
+                        "id": 2,
+                        "title": "Novela"
+                    },
+                    {
+                        "id": 3,
+                        "title": "Terror"
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "title": "¿Cuál es tu género literario menos preferido?",
+                "options": [
+                    {
+                        "id": 1,
+                        "title": "Fantasía"
+                    },
+                    {
+                        "id": 2,
+                        "title": "Novela"
+                    },
+                    {
+                        "id": 3,
+                        "title": "Terror"
+                    }
+                ]
+            }
+        ]
+    }
+]

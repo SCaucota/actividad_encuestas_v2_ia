@@ -1,0 +1,41 @@
+.encuesta-title {
+    background-color: #00aeff;
+    border-radius: 5px;
+    padding: 15px;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.encuesta-description {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.encuesta-list {
+    margin: 20px 0;
+}
+
+.encuesta-pregunta {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.encuesta-pregunta ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.encuesta-pregunta li {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.encuesta-link {
+    text-decoration: none;
+}
+
+.encuesta-button {
+    text-align: center;
+}
